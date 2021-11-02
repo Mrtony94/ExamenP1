@@ -1,0 +1,44 @@
+{
+  "donantes": [
+    {
+      "name": "David",
+      "grupo": "AB+",
+      "dona_a":["AB+"]
+    },
+    {
+      "name": "Alicia",
+      "grupo": "AB-",
+      "dona_a": ["AB+", "AB-"]
+    },
+    {
+      "name": "Sergio",
+      "grupo": ["A+","A-"],
+      "dona_a": ["A+", "AB+", "AB-"]
+    },
+    {
+      "name": "Sofia",
+      "grupo": "A-",
+      "dona_a": ["A+", "A-", "AB+", "AB-"]
+    },
+    {
+      "name": "Fernando",
+      "grupo": "B+",
+      "dona_a": ["B+", "AB+"]
+    },
+    {
+      "name": "Flora",
+      "grupo": "B-",
+      "dona_a": ["B+", "AB+", "AB-", "B-"]
+    },
+    {
+      "name": "Juan",
+      "grupo": "O+",
+      "dona_a": ["B+", "AB+", "A+", "O+"]
+    },
+        {
+      "name": "Ines",
+      "grupo": "O-",
+      "dona_a": ["B+", "AB+", "A+", "O+", "B-", "AB-", "A-", "O-"]
+    }
+    ]
+}

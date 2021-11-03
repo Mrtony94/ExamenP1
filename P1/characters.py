@@ -1,8 +1,9 @@
 """
-ALUMNOS que han realizado la practica
-Antonio Andres Perez DNI: 47580369Q Titulacion: IST
-Javier Zapatero Lera DNI: 54300753F Titulacion: IST
-Hemos realizado el programa con implementacion de color (solo compatible con distribuciones UNIX o macOS)
+
+ALUMNOS que han realizado la práctica:
+Antonio Andrés Pérez DNI: 47580369Q Titulación: IST
+Javier Zapatero Lera DNI: 54300753F Titulación: IST
+Hemos realizado el programa con implementación de color (solo compatible con distribuciones UNIX o macOS)
 
 """
 
@@ -12,6 +13,7 @@ import random
                                  # CHARACTER CLASS (clase padre)
     # --------------------------------------------------------------------------------------------- #
 
+
 class Character:
     def __init__(self, hp_max, dmg, hp):
         self.hp_max = hp_max
@@ -19,7 +21,7 @@ class Character:
         self.hp = hp
 
     def __str__(self):
-        print(f"HP_MAX: {self.hp_max} HP: {self.hp} DMG: {self.dmg}") # devolver información util para el juego
+        print(f"HP_MAX: {self.hp_max} HP: {self.hp} DMG: {self.dmg}")    # devolver información util para el juego
 
     def attack(self, enemy):
         dmg_attack = random.randint(1, self.dmg)
@@ -46,6 +48,7 @@ class Character:
     # --------------------------------------------------------------------------------------------- #
                                 # PLAYERS CLASS (clases hijas)
     # --------------------------------------------------------------------------------------------- #
+
 
 class Bookworm(Character):
     HP_MAX = 25
@@ -93,4 +96,5 @@ class Whatsapper(Character):
 
     def __init__(self, hp=HP_MAX):
         super().__init__(Whatsapper.HP_MAX, Whatsapper.DMG, hp)
+
 

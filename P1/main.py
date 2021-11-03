@@ -1,9 +1,9 @@
 """
 
-ALUMNOS que han realizado la practica
-Antonio Andres Perez DNI: 47580369Q Titulacion: IST
-Javier Zapatero Lera DNI: 54300753F Titulacion: IST
-Hemos realizado el programa con implementacion de color (solo compatible con distribuciones UNIX o macOS)
+ALUMNOS que han realizado la práctica:
+Antonio Andrés Pérez DNI: 47580369Q Titulación: IST
+Javier Zapatero Lera DNI: 54300753F Titulación: IST
+Hemos realizado el programa con implementación de color (solo compatible con distribuciones UNIX o macOS)
 
 """
 
@@ -47,7 +47,7 @@ def check_args(file, stages):
 
     try:
         stages = int(stages)
-        if stages < Game.MIN_STAGES or stages > Game.MAX_STAGES:    # comprobamos que los estados estan dentro del rango
+        if stages < Game.MIN_STAGES or stages > Game.MAX_STAGES:    # comprobamos que los estados están dentro del rango
             stages_ok = False
     except ValueError:
         stages_ok = False
@@ -70,7 +70,8 @@ try:
         if not stages_ok:
             print(f"{Game.bcolors.STAGE}The number of stages must be between 1 and 10.")
         if not file_ok:
-            print(f"{Game.bcolors.RESET}The format of the chosen file is incorrect. You must provide a filename that ends "
+            print(f"{Game.bcolors.RESET}The format of the chosen file is incorrect. "
+                  f"You must provide a filename that ends "
                   "either with .txt .json. Finishing program")
 except getopt.GetoptError:
     raise UsageError

@@ -10,24 +10,24 @@ def find_donnors(donnors, person):
             posible.append(d["name"])
     return posible
 
-
-def is_posible_donnor(group, p):
-    found = False
-    i = 0
-    while i < len(group) and not found:
-        if group[i] in p["dona_a"]:
-            found = True
-    return found
-
-
-def find_donnors_change(donnors, person): # meter a grupo mas de 1 elemento
-    list_donnors = donnors["donantes"]
-    posible = []
-    gs = person["grupo"]
-    for d in list_donnors:
-        if is_posible_donnor(gs,d) and d["name"] != person["name"]:
-            posible.append(d["name"])
-    return posible
+#
+# def is_posible_donnor(group, p):
+#     found = False
+#     i = 0
+#     while i < len(group) and not found:
+#         if group[i] in p["dona_a"]:
+#             found = True
+#     return found
+#
+#
+# def find_donnors_change(donnors, person): # meter a grupo mas de 1 elemento
+#     list_donnors = donnors["donantes"]
+#     posible = []
+#     gs = person["grupo"]
+#     for d in list_donnors:
+#         if is_posible_donnor(gs,d) and d["name"] != person["name"]:
+#             posible.append(d["name"])
+#     return posible
 
 
 def find_person(dict_donnors, name):

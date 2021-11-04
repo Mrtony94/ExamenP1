@@ -9,7 +9,7 @@ class Student:
         self.score = score
 
     def __str__(self):
-        return f"NEXP: {self.nexp} | COURSE: {self.course} | score: {self.score}"
+        return f"COURSE: {self.course} | NEXP: {self.nexp} | score: {self.score}"
 
     def __repr__(self):
         return self.__str__()
@@ -90,12 +90,19 @@ def add_class(list_student):
         list_student.append(s)
     return list_student
 
+def print_alum(list_student):
+    course = input("Enter a course: ").lower()
+    for s in list_student[:-1]:
+        if course in s.course:
+            print(s)
+    return s
 
 # Main
 student_list = []
 add_class(student_list)
 print(f"Lower student: {lower_score(student_list)}")
 print(f"Average: {average(student_list):.3}")
-print(f"{student_list})
+print(print_alum(student_list))
+
 
 

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d7165bf-cba8-4687-8863-6ee26c4d9ff9" name="Changes" comment="terminado p2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0d7165bf-cba8-4687-8863-6ee26c4d9ff9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/P1/ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/P1/ex2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +49,7 @@
       <workItem from="1635893507846" duration="948000" />
       <workItem from="1635955342745" duration="8956000" />
       <workItem from="1636020741114" duration="5446000" />
+      <workItem from="1636026562191" duration="972000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1635955374617</created>
@@ -79,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636025474802</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="haciendolo">
+      <created>1636027417012</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636027417012</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +109,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="update 2" />
     <MESSAGE value="terminado p2" />
-    <option name="LAST_COMMIT_MESSAGE" value="terminado p2" />
+    <MESSAGE value="haciendolo" />
+    <option name="LAST_COMMIT_MESSAGE" value="haciendolo" />
   </component>
 </project>

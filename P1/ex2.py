@@ -1,1 +1,1 @@
-tienes el de los diccionarios?
+No, estoy con él
